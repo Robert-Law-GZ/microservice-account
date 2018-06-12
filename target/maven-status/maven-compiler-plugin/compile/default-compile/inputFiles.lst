@@ -1,4 +1,4 @@
-/Users/robert/Desktop/lean/springcloud/spring-cloud-docker-microservice-book-code-docker/microservice-account/src/main/java/com/robert/microservice/account/controller/AccountController.java
-/Users/robert/Desktop/lean/springcloud/spring-cloud-docker-microservice-book-code-docker/microservice-account/src/main/java/com/robert/microservice/account/entity/User.java
-/Users/robert/Desktop/lean/springcloud/spring-cloud-docker-microservice-book-code-docker/microservice-account/src/main/java/com/robert/microservice/account/MicroserviceAccountApplication.java
-/Users/robert/Desktop/lean/springcloud/spring-cloud-docker-microservice-book-code-docker/microservice-account/src/main/java/com/robert/microservice/account/repository/UserRepository.java
+/Users/robert/Desktop/spring-lean/microservice-account/src/main/java/com/robert/microservice/account/entity/User.java
+/Users/robert/Desktop/spring-lean/microservice-account/src/main/java/com/robert/microservice/account/repository/UserRepository.java
+/Users/robert/Desktop/spring-lean/microservice-account/src/main/java/com/robert/microservice/account/MicroserviceAccountApplication.java
+/Users/robert/Desktop/spring-lean/microservice-account/src/main/java/com/robert/microservice/account/controller/AccountController.java
