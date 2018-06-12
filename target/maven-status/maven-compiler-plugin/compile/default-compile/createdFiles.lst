@@ -1,0 +1,4 @@
+com/robert/microservice/account/repository/UserRepository.class
+com/robert/microservice/account/MicroserviceAccountApplication.class
+com/robert/microservice/account/controller/AccountController.class
+com/robert/microservice/account/entity/User.class
