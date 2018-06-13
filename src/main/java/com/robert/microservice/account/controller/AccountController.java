@@ -16,7 +16,7 @@ public class AccountController {
 
     @GetMapping(value = "/user/profile/{id}")
     public User login(@PathVariable Long id){
-        User user=userRepository.findById(id).get();
+        User user=userRepository.findOne(id);
         return user;
     }
 
