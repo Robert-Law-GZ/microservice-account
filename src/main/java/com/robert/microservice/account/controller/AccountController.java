@@ -17,7 +17,7 @@ public class AccountController {
     private UserRepository userRepository;
 
     @GetMapping(value = "/profile/{id}")
-    public User login(@PathVariable Long id){
+    public User enter(@PathVariable Long id){
         User user=userRepository.findOne(id);
         return user;
     }
@@ -27,4 +27,8 @@ public class AccountController {
         return userRepository.findAll();
     }
 
+    @GetMapping(value = "/sign")
+    public String sign(){
+        return "login.html";
+    }
 }
