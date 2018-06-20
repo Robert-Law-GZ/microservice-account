@@ -11,14 +11,24 @@ import org.springframework.security.config.annotation.web.configuration.WebSecur
 @Configuration
 public class AccountSecurityConfig extends WebSecurityConfigurerAdapter {
 
+    /**
+     * 需要放行的URL
+     */
+    private static final String[] AUTH_WHITELIST = {
+            "/user/signup",
+            "/user/sign",
+            "/user/list",
+            "/*",
+    };
+
     @Override
     protected void configure(HttpSecurity http) throws Exception {
         http.authorizeRequests()
-                .antMatchers("/user/profile/**").permitAll()
+                .antMatchers(AUTH_WHITELIST).permitAll()
                 .anyRequest().authenticated()
                 .and()
                 .formLogin()
-                .loginPage("/login.html")
+                .loginPage("/login")
                 .permitAll()
                 .and()
                 .logout()
