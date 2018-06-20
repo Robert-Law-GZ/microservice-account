@@ -11,4 +11,5 @@ public class MicroserviceAccountApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(MicroserviceAccountApplication.class, args);
 	}
+
 }
